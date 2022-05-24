@@ -1,0 +1,68 @@
+:root{
+    --dominant-colour:#000005;
+    --primary-colour:#1D256E;
+    --secondary-colour:#B8B8B6;
+    --temp-colour:#FFFFFF;
+}
+body{
+    background-color: var(--secondary-colour);
+    overflow: hidden;
+    padding: 30px;
+    margin: 20px;
+    
+}
+.container{
+    margin: 10px;
+}
+.main-contaoiner{
+    width: 50%;
+    
+    
+}
+#submit{
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: var(--dominant-colour) 1px solid;
+    border-radius: 5px;
+    width: 90%;
+    background-color: var(--primary-colour);
+    color: var(--temp-colour);
+}
+#name{
+    outline: none;
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+
+    border-radius: 5px;
+    border: var(--primary-colour) 1px solid;
+}
+#email{
+    outline: none;
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    border-radius: 5px;
+    border: var(--primary-colour) 1px solid;
+
+}
+.footer-cradit a{
+    margin: 10px;
+    text-decoration: none;
+    color: var(--temp-colour);
+}
+.imp{
+    background: rgb(141, 81, 81);
+    color: white;
+    width: 82%;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-contaoiner{
+        width: 100%;
+    }
+}
